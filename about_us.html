@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/922e56c2fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/about_us.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <h1 class="logo">Athens Travel</h1>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./populare_places.html">Explore</a></li>
+        <li class="active"><a href="./about_us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+        <!-- <li class="ctn"><a href="#">Contact</a></li> -->
+      </ul>
+      <img src="./menu.png" alt="" class="menu-btn" />
+    </nav>
+
+    <!--image-->
+    <header>
+      <div class="header-content">
+        <h1>About Us</h1>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <!--about us-->
+    <section>
+      <div class="aboutUs">
+        <div class="about-us-content">
+          <h2>Who We Are</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            quidem minus dicta sequi harum, error incidunt doloremque
+            repellendus aut suscipit. Consectetur ipsa amet deleniti voluptate
+            consequuntur! At magni aspernatur quia.
+          </p>
+          
+            
+        
+        
+      </div>
+    </section>
+    <section>
+      <div class="aboutUs">
+        <div class="about-us-content">
+          <h2>What We Do</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            quidem minus dicta sequi harum, error incidunt doloremque
+            repellendus aut suscipit. Consectetur ipsa amet deleniti voluptate
+            consequuntur! At magni aspernatur quia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="box-footer">
+          <!--container-->
+          <div class="row-2">
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./populare_places.html">Explore</a></li>
+  
+                <li><a href="./about_us.html">About Us</a></li>
+                <li><a href="./contact-us.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Contact Us</h4>
+              <ul>
+                <li><a href="#">Phone: +30 698 000 0000</a></li>
+                <li><a href="#">Viber: +30 698 000 0000</a></li>
+                <li><a href="#">WhatsUp: +30 698 000 0000</a></li>
+                <li><a href="#">Email: AcroHouse@gmail.com</a></li>
+              </ul>
+            </div>
+  
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="cp-text">© Copyright 2022 AcroHouse. All rights reserved.</p>
+      </footer>
+
+
+
+      <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+  
+        menuBtn.addEventListener('click', () => {
+          navlinks.classList.toggle('mobile-menu');
+        });
+      </script>
+  </body>
+</html>

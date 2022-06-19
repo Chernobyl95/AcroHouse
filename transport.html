@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/transport.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <script
+      src="https://kit.fontawesome.com/922e56c2fa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <h1 class="logo">Athens Travel</h1>
+      <ul class="nav-links">
+        <li ><a href="./index.html">Home</a></li>
+        <li><a href="./populare_places.html">Explore</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+        <!-- <li class="ctn"><a href="#">Contact</a></li> -->
+      </ul>
+      <img src="./menu.png" alt="" class="menu-btn" />
+    </nav>
+    <!--Image-->
+    <header>
+      <div class="header-content"></div>
+    </header>
+    <!--Text-->
+
+    <div class="header-content">
+      <h2>What We Offer?</h2>
+      <div class="line"></div>
+    </div>
+
+    <!--Offers-->
+    
+        <div class="offers">
+            <div class="offer">
+                <h3>1.</h4>
+                    <div class="line-2"></div>
+                <p>
+               Transport to & from the airport-train station-port!
+                </p>
+            </div>
+            <div class="offer">
+                <h3>2.</h4>
+                    <div class="line-2"></div>
+                <p>
+               One day trip or more!
+                </p>
+            </div>
+            <div class="offer">
+                <h3>3.</h4>
+                    <div class="line-2"></div>
+                <p>
+               Wedding & party transport!
+                </p>
+            </div>
+        </div>
+           
+        <div class="header-content">
+            <h2>You Need Personal Driver?</h2>
+            <div class="line"></div>
+            <h2>Contact Us</h2>
+            <a href="./contact-us.html" class="ctn">Contact Us</a>
+          </div>
+
+          <!--FOOTER-->
+    <footer class="footer">
+      <div class="box-footer">
+        <!--container-->
+        <div class="row-2">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./populare_places.html">Explore</a></li>
+
+              <li><a href="./about_us.html">About Us</a></li>
+              <li><a href="./contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+              <li><a href="#">Phone: +30 698 000 0000</a></li>
+              <li><a href="#">Viber: +30 698 000 0000</a></li>
+              <li><a href="#">WhatsUp: +30 698 000 0000</a></li>
+              <li><a href="#">Email: AcroHouse@gmail.com</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="cp-text">© Copyright 2022 AcroHouse. All rights reserved.</p>
+    </footer>
+   
+          <script>
+            const menuBtn = document.querySelector('.menu-btn');
+            const navlinks = document.querySelector('.nav-links');
+      
+            menuBtn.addEventListener('click', () => {
+              navlinks.classList.toggle('mobile-menu');
+            });
+          </script>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/contact-us.css" />
+    <script
+      src="https://kit.fontawesome.com/922e56c2fa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <h1 class="logo">AcroHouse</h1>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./populare_places.html">Explore</a></li>
+        <li><a href="./about_us.html">About Us</a></li>
+        <li class="active"><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+      <img src="./menu.png" alt="" class="menu-btn" />
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <h3>You Need More Informations?</h3>
+        <div class="line"></div>
+        <h2>Contact Us!</h2>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <div class="contact">
+      <div class="contact-img">
+        <img src="./IMAGES/contact-page.png" alt="" />
+      </div>
+      <div class="contact-info">
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur
+          magnam quaerat harum dolores veniam aliquid perspiciatis quis aperiam
+          quas?
+        </p>
+
+        <div class="services">
+          <a href="tel:00306984926462" class="service">
+            <i class="fa-solid fa-2x fa-phone"></i>
+            <p>Call Us: <br /><span>698 000 00 00</span></p>
+          </a>
+          <a
+            href="mailto:denysmatsan@gmail.com?Subject=Contact Us"
+            class="service"
+          >
+            <i class="fa-solid fa-2x fa-envelope"></i>
+            <p>Email: <br /><span>John@info.com</span></p>
+          </a>
+          <a href="https://wa.me/00306984926462" class="service">
+            <i class="fa-brands fa-2x fa-whatsapp"></i>
+            <p>
+              WhatsApp: <br />
+              <span>698 000 00 00</span>
+            </p>
+          </a>
+          <a href="viber://chat/?number=%2B00306984926462" class="service">
+            <i class="fa-brands fa-2x fa-viber"></i>
+            <p>
+              Viber: <br />
+              <span>698 000 00 00</span>
+            </p>
+          </a>
+          <a href="#" class="service">
+            <i class="fa-brands fa-2x fa-instagram"></i>
+            <p>Instagram: <br /><span>@Athens Travel</span></p>
+          </a>
+          <a href="#" class="service">
+            <i class="fa-brands fa-2x fa-facebook"></i>
+            <p>
+              Facebook:<br />
+              <span>Athens Travel</span>
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="box-footer">
+        <!--container-->
+        <div class="row-2">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./populare_places.html">Explore</a></li>
+
+              <li><a href="./about_us.html">About Us</a></li>
+              <li><a href="./contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+              <li><a href="#">Phone: +30 698 000 0000</a></li>
+              <li><a href="#">Viber: +30 698 000 0000</a></li>
+              <li><a href="#">WhatsUp: +30 698 000 0000</a></li>
+              <li><a href="#">Email: UkraineTravel@gmail.com</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="cp-text">© Copyright 2022 AcroHouse. All rights reserved.</p>
+    </footer>
+    <script>
+      const menuBtn = document.querySelector('.menu-btn');
+      const navlinks = document.querySelector('.nav-links');
+
+      menuBtn.addEventListener('click', () => {
+        navlinks.classList.toggle('mobile-menu');
+      });
+    </script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById('lightgallery'), {
+        plugins: [lgZoom, lgThumbnail],
+        licenseKey: '0000-0000-000-0000',
+        speed: 500,
+      });
+    </script>
+  </body>
+</html>
