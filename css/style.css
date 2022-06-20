@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 a {
   text-decoration: none;
@@ -21,7 +22,6 @@ li {
 body,
 html {
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
 }
 .menu-btn {
   position: absolute;
@@ -422,6 +422,8 @@ a:hover {
   }
   .footer-col {
     width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
   }
 }
 

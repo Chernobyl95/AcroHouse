@@ -32,7 +32,7 @@ a {
   left: 0;
   width: 100%;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
   color: whitesmoke;
 }
 .logo {
@@ -62,7 +62,7 @@ a {
   position: absolute;
   top: 30px;
   right: 30px;
-  width: 40px;
+  width: 20px;
   display: none;
 }
 
@@ -74,11 +74,11 @@ a {
 }
 .header-content h2 {
   font-size: 4vmin;
-  color: rgb(28, 29, 31);
+  color: rgb(60, 91, 121);
 }
 .header-content h4 {
   font-size: 2vmin;
-  color: rgb(31, 31, 31);
+  color: rgb(60, 91, 121);
 }
 
 /*Places Cards*/
@@ -129,7 +129,7 @@ a {
 .content-destination h3 {
   font-size: 20px;
   padding-top: 20px;
-
+  color: rgb(60, 91, 121);
   font-weight: 500;
 }
 .content-destination p {
@@ -254,7 +254,7 @@ a {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
   .header-content {
     padding-top: 50px;
   }
@@ -269,9 +269,10 @@ a {
     position: absolute;
     top: 30px;
     left: 30px;
+    color: black;
   }
   .nav-links {
-    background: rgb(60, 91, 121);
+    background: rgb(67, 128, 189);
     z-index: 10;
     flex-direction: column;
     width: 100%;
@@ -285,8 +286,17 @@ a {
   }
   .nav-links li {
     margin: 30px auto;
+    font-size: 25px;
+  }
+  .content-destination p {
+    font-size: 14px;
+  }
+  .header-content h4 {
+    font-size: 3vmin;
   }
   .footer-col {
     width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
   }
 }
