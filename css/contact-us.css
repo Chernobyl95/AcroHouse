@@ -32,11 +32,13 @@ a {
   left: 0;
   width: 100%;
   justify-content: space-between;
-  padding: 30px;
+  padding: 10px;
   color: whitesmoke;
 }
 .logo {
   color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
 }
 .nav-links {
   display: flex;
@@ -83,8 +85,13 @@ a {
 }
 
 .contact {
-  width: 100%;
+  max-width: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
 }
+
 /* .contact-info .text {
   font-size: 2vmin;
   color: rgb(31, 31, 31);
@@ -100,11 +107,12 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
   padding: 20px;
 }
 .service {
   display: flex;
+  margin: 10px;
   flex-direction: column;
   align-items: center;
   min-width: 200px;
@@ -204,6 +212,13 @@ a {
   font-size: 14px;
   text-align: center;
   margin-top: 50px;
+}
+
+.logo img {
+  transition: transform 0.3s ease;
+}
+.logo img:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 768px) {

@@ -23,6 +23,12 @@ a {
   text-decoration: none;
   color: antiquewhite;
 }
+.logo img {
+  transition: transform 0.3s ease;
+}
+.logo img:hover {
+  transform: scale(1.1);
+}
 /* Header */
 .navbar {
   display: flex;
@@ -32,11 +38,13 @@ a {
   left: 0;
   width: 100%;
   justify-content: space-between;
-  padding: 30px;
+  padding: 10px;
   color: whitesmoke;
 }
 .logo {
   color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
 }
 .nav-links {
   display: flex;
@@ -133,7 +141,7 @@ a {
   font-weight: 500;
 }
 .content-destination p {
-  width: 80%;
+  width: 100%;
   margin: 10px auto;
   font-size: 16px;
   opacity: 0;

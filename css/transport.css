@@ -30,6 +30,12 @@ html {
   width: 20px;
   display: none;
 }
+.logo img {
+  transition: transform 0.3s ease;
+}
+.logo img:hover {
+  transform: scale(1.1);
+}
 /* Header */
 .navbar {
   display: flex;
@@ -39,11 +45,13 @@ html {
   left: 0;
   width: 100%;
   justify-content: space-between;
-  padding: 30px;
+  padding: 10px;
   color: whitesmoke;
 }
 .logo {
   color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
 }
 .nav-links {
   display: flex;

@@ -23,6 +23,12 @@ a {
   text-decoration: none;
   color: antiquewhite;
 }
+.logo img {
+  transition: transform 0.3s ease;
+}
+.logo img:hover {
+  transform: scale(1.1);
+}
 /* Header */
 .navbar {
   display: flex;
@@ -32,11 +38,13 @@ a {
   left: 0;
   width: 100%;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   color: whitesmoke;
 }
 .logo {
-  color: white;
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
 }
 .nav-links {
   display: flex;
@@ -201,6 +209,7 @@ a {
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
+
   padding: 20px;
 }
 .popular-location h1 {
@@ -272,6 +281,7 @@ a {
 .popular-location-item img {
   width: 90%;
   padding: 10px;
+  height: 320px;
 
   overflow: hidden;
   border-radius: 5px;

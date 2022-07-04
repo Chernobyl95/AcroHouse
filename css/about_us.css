@@ -40,11 +40,13 @@ html {
   left: 0;
   width: 100%;
   justify-content: space-between;
-  padding: 30px;
+  padding: 10px;
   color: whitesmoke;
 }
 .logo {
   color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
 }
 .nav-links {
   display: flex;
@@ -212,6 +214,12 @@ section {
   margin-top: 50px;
 }
 
+img {
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.1);
+}
 @media screen and (max-width: 768px) {
   .menu-btn {
     display: block;
