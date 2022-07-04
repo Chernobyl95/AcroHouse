@@ -40,11 +40,13 @@ html {
   left: 0;
   width: 100%;
   justify-content: space-between;
-  padding: 30px;
+  padding: 10px;
   color: whitesmoke;
 }
 .logo {
   color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
 }
 .nav-links {
   display: flex;
@@ -349,8 +351,8 @@ a:hover {
   }
   .logo {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 10px;
+    left: 10px;
     color: black;
   }
   .nav-links {
