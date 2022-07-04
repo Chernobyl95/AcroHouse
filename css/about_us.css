@@ -89,13 +89,13 @@ header {
 section {
   width: 100vw;
   height: 50vh;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
+  background: rgb(255, 255, 255);
+  /* background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(67, 128, 189, 1) 57%,
     rgba(0, 212, 255, 1) 100%
-  );
+  ); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,11 +121,17 @@ section {
 }
 .about-us-content h2 {
   font-size: 4vmin;
-  margin-bottom: 10px;
+  color: rgb(60, 91, 121);
+  margin-bottom: 20px;
+  text-align: center;
 }
 .about-us-content p {
   font-size: 2vmin;
   margin-bottom: 10px;
+  border: 1px solid rgb(60, 91, 121);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(60, 91, 121, 0.356);
 }
 
 /* footer */
