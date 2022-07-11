@@ -489,6 +489,11 @@ a {
     align-items: center;
     justify-content: center;
   }
+  .popular-location-item img {
+    width: 90%;
+    padding: 10px;
+    height: auto;
+  }
   .footer-col {
     width: 100%;
     text-align: center;
@@ -502,5 +507,17 @@ a {
     align-items: center;
     justify-content: center;
     min-width: 45%;
+  }
+  .popular-location-item img {
+    width: 90%;
+    padding: 10px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1690px) {
+  .popular-location-item img {
+    width: 90%;
+    padding: 10px;
+    height: auto;
   }
 }

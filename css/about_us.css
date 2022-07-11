@@ -58,8 +58,9 @@ html {
 }
 /*image and text */
 header {
-  width: 100vw;
-  height: 60vh;
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
 
   background-image: url(../images/about-us.jpg);
   background-position: center;
@@ -67,7 +68,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 72px;
 }
 .header-content {
   margin-bottom: 150px;
@@ -86,25 +86,23 @@ header {
   font-size: 7vmin;
   margin-top: 50px;
   margin-bottom: 10px;
+  z-index: 100;
 }
 /* About us */
 section {
-  width: 100vw;
-  height: 50vh;
+  width: 100%;
+
   background: rgb(255, 255, 255);
-  /* background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(67, 128, 189, 1) 57%,
-    rgba(0, 212, 255, 1) 100%
-  ); */
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .aboutUs {
-  width: 80%;
+  width: 90%;
+  height: auto;
   padding: 50px;
 
   background-color: rgb(255, 255, 255);
@@ -116,7 +114,7 @@ section {
 }
 .about-us-content {
   width: 100%;
-  height: 200px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,12 +128,23 @@ section {
 .about-us-content p {
   font-size: 2vmin;
   margin-bottom: 10px;
-  border: 1px solid rgb(60, 91, 121);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: inset 0 0 10px rgba(60, 91, 121, 0.356);
 }
 
+/*logo image */
+.AcroImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.AcroImg img {
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+}
+.AcroImg img:hover {
+  transform: none;
+}
 /* footer */
 
 .box-footer {
@@ -250,6 +259,18 @@ img:hover {
   .nav-links li {
     margin: 30px auto;
     font-size: 25px;
+  }
+
+  .about-us-content p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+  .about-us-content h2 {
+  }
+  .AcroImg img {
+    max-width: 300px;
+    margin-top: 0;
   }
   .footer-col {
     width: 100%;
