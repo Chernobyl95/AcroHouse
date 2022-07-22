@@ -206,7 +206,7 @@
               <li><a href="./index.html">Home</a></li>
               <li><a href="./populare_places.html">Explore</a></li>
 
-              <li><a href="#">About Us</a></li>
+              <li><a href="./about_us.html">About Us</a></li>
               <li><a href="./contact-us.html">Contact Us</a></li>
             </ul>
           </div>
@@ -234,8 +234,10 @@
             <h4>Follow Us</h4>
             <div class="social-links">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
+              <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+              <a href="instagram://user?username=acrohouseathens"
+                ><i class="fab fa-instagram"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -244,19 +246,19 @@
     </footer>
 
     <script>
-      const menuBtn = document.querySelector('.menu-btn');
-      const navlinks = document.querySelector('.nav-links');
+      const menuBtn = document.querySelector('.menu-btn')
+      const navlinks = document.querySelector('.nav-links')
 
       menuBtn.addEventListener('click', () => {
-        navlinks.classList.toggle('mobile-menu');
-      });
+        navlinks.classList.toggle('mobile-menu')
+      })
     </script>
     <script type="text/javascript">
       lightGallery(document.getElementById('lightgallery'), {
         plugins: [lgZoom, lgThumbnail],
         licenseKey: '0000-0000-000-0000',
         speed: 500,
-      });
+      })
     </script>
   </body>
 </html>
